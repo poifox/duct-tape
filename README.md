@@ -5,4 +5,4 @@ A responsive gridt to hold your website together.
 
 The demo source comes built by default but just in case:
 
-`sass -C --update scss/main.css css/duct-tape.css`
+`sass -C --watch scss/main.scss:css/duct-tape.css`
