@@ -24,3 +24,11 @@ body {
 .content {
 	background: #fff;
 }
+
+[class*='col-'] {
+	.debug {
+		background: #fff;
+		padding: 1rem;
+		// font-size: 10px;
+	}
+}

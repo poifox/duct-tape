@@ -8,22 +8,303 @@
 <body>
 	<article>
 		<header class="container">
-			<div class="col-small-12">
-				<div>
-					<h1>Duct Tape Responsive grid Demo</h1>
-				</div>
-			</div>
-			<div class="col-large-12 col-medium12 col-small-12">
-				<div>
-					Duct tape will hold your website together!
-				</div>
+			<div class="col-large-12">
+				<nav class="top-nav">
+					<ul class="top-nav-menu">
+						<li>
+							<a href="#">Duct Tape</a>
+						</li>
+						<li>
+							<a href="#intro">Intro</a>
+						</li>
+						<li>
+							<a href="#classes">Classes</a>
+						</li>
+						<li>
+							<a href="#examples">Examples</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		</header>
 		<section class="container">
-			Section
+			<div class="col-large-12" id="intro">
+				<h1>Introduction</h1>
+				<p>
+					Duct tape is a simple responsive grid for websites. It is meant to be simple and intuitive to use to create nice-looking responsive web layouts for your projects.
+				</p>
+				<p>
+					Duct tape doesn't claim to be the last responsive grid system you will ever use; instead we want it to be the first, your starting for developing your own responsive grid systems.
+				</p>
+				<p>
+					You can use the duct tape grid as a base for your own grids and layout engine, it is customizable and can adapt to have as many columns as you like.
+				</p>
+			</div>
+
+			<div class="col-large-12" id="classes">
+				<h1>Classes</h1>
+				<p>
+					Duct tape's grid is meant to be used out-of-the-box, as they say. Every class can be used as a default if no other class is used in combination. This meand that if a <code>&lt;div&gt;</code> only needs one class to define its layout, you don't have to add all three classes for different screen sizes to it.
+				</p>
+			</div>
+
+			<div class="col-large-12">
+				<h3>.col-large-*</h3>
+				<p>
+					.col-large-* is the topmost size class, you can use it as a default if you
+				</p>
+			</div>
+			<div class="col-large-11"><div class="debug">.col-large-11</div></div>
+			<div class="col-large-1"><div class="debug">.col-large-1</div></div>
+			<div class="col-large-10"><div class="debug">.col-large-10</div></div>
+			<div class="col-large-2"><div class="debug">.col-large-2</div></div>
+			<div class="col-large-9"><div class="debug">.col-large-9</div></div>
+			<div class="col-large-3"><div class="debug">.col-large-3</div></div>
+			<div class="col-large-8"><div class="debug">.col-large-8</div></div>
+			<div class="col-large-4"><div class="debug">.col-large-4</div></div>
+			<div class="col-large-7"><div class="debug">.col-large-7</div></div>
+			<div class="col-large-5"><div class="debug">.col-large-5</div></div>
+			<div class="col-large-6"><div class="debug">.col-large-6</div></div>
+			<div class="col-large-6"><div class="debug">.col-large-6</div></div>
+
+
+			<div class="col-large-12">
+				<h3>.col-medium-*</h3>
+				<p>
+					.col-medium-* classes can be used as defaults for all sizes if you don't have the need to specify a class for every screen size.
+				</p>
+			</div>
+			<div class="col-medium-11"><div class="debug">.col-medium-11</div></div>
+			<div class="col-medium-1"><div class="debug">.col-medium-1</div></div>
+			<div class="col-medium-10"><div class="debug">.col-medium-10</div></div>
+			<div class="col-medium-2"><div class="debug">.col-medium-2</div></div>
+			<div class="col-medium-9"><div class="debug">.col-medium-9</div></div>
+			<div class="col-medium-3"><div class="debug">.col-medium-3</div></div>
+			<div class="col-medium-8"><div class="debug">.col-medium-8</div></div>
+			<div class="col-medium-4"><div class="debug">.col-medium-4</div></div>
+			<div class="col-medium-7"><div class="debug">.col-medium-7</div></div>
+			<div class="col-medium-5"><div class="debug">.col-medium-5</div></div>
+			<div class="col-medium-6"><div class="debug">.col-medium-6</div></div>
+			<div class="col-medium-6"><div class="debug">.col-medium-6</div></div>
+
+
+			<div class="col-large-12">
+				<h3>.col-small-*</h3>
+				<p>
+					.col-small-* classes can be used as defaults for all sizes if you don't have the need to specify a class for every screen size.
+				</p>
+			</div>
+			<div class="col-small-11"><div class="debug">.col-small-11</div></div>
+			<div class="col-small-1"><div class="debug">.col-small-1</div></div>
+			<div class="col-small-10"><div class="debug">.col-small-10</div></div>
+			<div class="col-small-2"><div class="debug">.col-small-2</div></div>
+			<div class="col-small-9"><div class="debug">.col-small-9</div></div>
+			<div class="col-small-3"><div class="debug">.col-small-3</div></div>
+			<div class="col-small-8"><div class="debug">.col-small-8</div></div>
+			<div class="col-small-4"><div class="debug">.col-small-4</div></div>
+			<div class="col-small-7"><div class="debug">.col-small-7</div></div>
+			<div class="col-small-5"><div class="debug">.col-small-5</div></div>
+			<div class="col-small-6"><div class="debug">.col-small-6</div></div>
+			<div class="col-small-6"><div class="debug">.col-small-6</div></div>
+
+			<div class="col-small-12" id="examples">
+				<h1>Examples</h1>
+				<hr>
+			</div>
+
+			<div class="cage-small-12" id="blog">
+				<header class="col-small-12">
+					<h2>Blog Layout</h2>
+				</header>
+				<div class="col-medium-12">
+					<div class="debug">Breadcrumb / Goes / Here</div>
+				</div>
+				<div class="cage-small-12" id="blog-content">
+					<div class="cage-large-8 cage-small-12">
+						<div class="col-large-12 post">
+							<div class="debug">
+								<h2>Post title</h2>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempore pariatur esse, temporibus sed accusamus autem sunt animi eveniet nam maxime iusto aut corporis nihil eligendi veritatis, placeat beatae perspiciatis. </p>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempore pariatur esse, temporibus sed accusamus autem sunt animi eveniet nam maxime iusto aut corporis nihil eligendi veritatis, placeat beatae perspiciatis. </p>
+							</div>
+						</div>
+						<div class="col-large-12 post">
+							<div class="debug">
+								<h2>Post title</h2>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non incidunt nobis facere quaerat, unde pariatur saepe atque voluptatum sunt suscipit, esse doloremque at fuga porro facilis exercitationem, quas molestias. </p>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non incidunt nobis facere quaerat, unde pariatur saepe atque voluptatum sunt suscipit, esse doloremque at fuga porro facilis exercitationem, quas molestias. </p>
+							</div>
+						</div>
+						<div class="col-large-12 post">
+							<div class="debug">
+								<h2>Post title</h2>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque itaque, quia minus sed fuga. Minima vitae pariatur autem iusto nisi quam tenetur alias cupiditate labore quod et nam, amet commodi? </p>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque itaque, quia minus sed fuga. Minima vitae pariatur autem iusto nisi quam tenetur alias cupiditate labore quod et nam, amet commodi? </p>
+							</div>
+						</div>
+						<div class="col-large-12 post">
+							<div class="debug">
+								<h2>Post title</h2>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis neque repellat saepe, aut nemo id distinctio ab blanditiis harum illo commodi temporibus veritatis odit iure ratione omnis, a obcaecati assumenda. </p>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis neque repellat saepe, aut nemo id distinctio ab blanditiis harum illo commodi temporibus veritatis odit iure ratione omnis, a obcaecati assumenda. </p>
+							</div>
+						</div>
+						<div class="col-medium-12">
+							<div class="debug text-center"><< 1 2 3 4 5 6 ... 20 >></div>
+						</div>
+					</div>
+					<div class="cage-large-4 cage-small-12" id="blog-sidebar">
+						<div class="col-large-12 col-small-6 sidebar-widget">
+							<div class="debug">
+								<h4 class="shrinkwrap">Widget title</h4>
+								<p>
+									this is the widget content
+								</p>
+							</div>
+						</div>
+						<div class="col-large-12 col-small-6 sidebar-widget">
+							<div class="debug">
+								<h4 class="shrinkwrap">Widget title</h4>
+								<p>
+									this is the widget content
+								</p>
+							</div>
+						</div>
+						<div class="col-large-12 col-small-12 sidebar-widget">
+							<div class="debug">
+								<h4 class="shrinkwrap">Widget title</h4>
+								<p>
+									this is the widget content
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-large-12">
+				<hr>
+			</div>
+
+			<div class="cage-small-12">
+				<div class="col-large-12">
+					<h2>Gallery Layout</h2>
+				</div>
+				<div class="col-medium-12">
+					<div class="debug">Breadcrumb / Goes / Here</div>
+				</div>
+				<div class="cage-large-12">
+					<div class="col-large-3 col-medium-4 col-small-6">
+						<div class="debug">
+							<div class="clearfix">
+								<img src="img/photo.jpg" alt="Gallery thumb">
+							</div>
+							<a>Gallery Item name</a>
+						</div>
+					</div>
+					<div class="col-large-3 col-medium-4 col-small-6">
+						<div class="debug">
+							<div class="clearfix">
+								<img src="img/photo.jpg" alt="Gallery thumb">
+							</div>
+							<a>Gallery Item name</a>
+						</div>
+					</div>
+					<div class="col-large-3 col-medium-4 col-small-6">
+						<div class="debug">
+							<div class="clearfix">
+								<img src="img/photo.jpg" alt="Gallery thumb">
+							</div>
+							<a>Gallery Item name</a>
+						</div>
+					</div>
+					<div class="col-large-3 col-medium-4 col-small-6">
+						<div class="debug">
+							<div class="clearfix">
+								<img src="img/photo.jpg" alt="Gallery thumb">
+							</div>
+							<a>Gallery Item name</a>
+						</div>
+					</div>
+					<div class="col-large-3 col-medium-4 col-small-6">
+						<div class="debug">
+							<div class="clearfix">
+								<img src="img/photo.jpg" alt="Gallery thumb">
+							</div>
+							<a>Gallery Item name</a>
+						</div>
+					</div>
+					<div class="col-large-3 col-medium-4 col-small-6">
+						<div class="debug">
+							<div class="clearfix">
+								<img src="img/photo.jpg" alt="Gallery thumb">
+							</div>
+							<a>Gallery Item name</a>
+						</div>
+					</div>
+					<div class="col-large-3 col-medium-4 col-small-6">
+						<div class="debug">
+							<div class="clearfix">
+								<img src="img/photo.jpg" alt="Gallery thumb">
+							</div>
+							<a>Gallery Item name</a>
+						</div>
+					</div>
+					<div class="col-large-3 col-medium-4 col-small-6">
+						<div class="debug">
+							<div class="clearfix">
+								<img src="img/photo.jpg" alt="Gallery thumb">
+							</div>
+							<a>Gallery Item name</a>
+						</div>
+					</div>
+					<div class="col-large-3 col-medium-4 col-small-6">
+						<div class="debug">
+							<div class="clearfix">
+								<img src="img/photo.jpg" alt="Gallery thumb">
+							</div>
+							<a>Gallery Item name</a>
+						</div>
+					</div>
+					<div class="col-large-3 col-medium-4 col-small-6">
+						<div class="debug">
+							<div class="clearfix">
+								<img src="img/photo.jpg" alt="Gallery thumb">
+							</div>
+							<a>Gallery Item name</a>
+						</div>
+					</div>
+					<div class="col-large-3 col-medium-4 col-small-6">
+						<div class="debug">
+							<div class="clearfix">
+								<img src="img/photo.jpg" alt="Gallery thumb">
+							</div>
+							<a>Gallery Item name</a>
+						</div>
+					</div>
+					<div class="col-large-3 col-medium-4 col-small-6">
+						<div class="debug">
+							<div class="clearfix">
+								<img src="img/photo.jpg" alt="Gallery thumb">
+							</div>
+							<a>Gallery Item name</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-medium-12">
+					<div class="debug text-center"><< 1 2 3 4 5 6 ... 20 >></div>
+				</div>
+			</div>
+
 		</section>
+
+
+
 		<footer class="container">
-			Footer
+			<div class="col-small-12">
+				<p class="text-center">
+					<small>&copy; 2015, Jonathan Acosta.</small>
+				</p>
+			</div>
 		</footer>
 	</article>
 </body>

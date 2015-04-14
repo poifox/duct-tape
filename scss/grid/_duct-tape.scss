@@ -23,14 +23,13 @@ $threshold-property: max-width;
 
 // The four main breakpoint thresholds for your grid
 // You can set these in any CSS unit that makes sense for your use case
-$large-threshold: 1024px !default; // this is as wide as your site will get
-$medium-threshold: 960px !default; // medium screens breakpoint
-$small-threshold: 720px !default; // small screens breakpoint
-$tiny-threshold: 480px !default; // tiny screens breakpoint
+$large-threshold: 960px !default; // this is as wide as your site will get
+$medium-threshold: 720px !default; // medium screens breakpoint
+$small-threshold: 640px !default; // small screens breakpoint
 
 // Defines the gutter between columns
 // it works with a padding
-$gutter: 16px !default;
+$gutter: 1rem !default;
 
 // The base width percentage. DO NOT EDIT
 $colwidth: 100% / $manycols;
@@ -118,26 +117,6 @@ $debug: false !default;
 // This ordering should be kept unchanged to avoid hierarchy issues.
 
 
-// Tiny cages and cols
-// Defined here so they can be overridden by later classes
-// when adding more thresholds:
-//    + put smaller ones before this
-//    + and bigger ones after this
-@for $colspan from 1 through $manycols {
-
-  .cage-tiny-#{$colspan} {
-    @extend %cage;
-    width: $colwidth * $colspan;
-  }
-
-  .col-tiny-#{$colspan} {
-    @extend %col;
-    width: $colwidth * $colspan;
-  }
-
-}
-
-
 // Small cages and cols
 // Defined here so they can be overridden by later classes
 // when adding more thresholds:
@@ -153,6 +132,12 @@ $debug: false !default;
   .col-small-#{$colspan} {
     @extend %col;
     width: $colwidth * $colspan;
+
+    @if $debug {
+      .debug {
+        background: rgba(#0f8, .16);
+      }
+    }
   }
 
 }
@@ -173,6 +158,12 @@ $debug: false !default;
   .col-medium-#{$colspan} {
     @extend %col;
     width: $colwidth * $colspan;
+
+    @if $debug {
+      .debug {
+        background: rgba(#08f, .16);
+      }
+    }
   }
 
 }
@@ -194,6 +185,12 @@ $debug: false !default;
   .col-large-#{$colspan} {
     @extend %col;
     width: $colwidth * $colspan;
+
+    @if $debug {
+      .debug {
+        background: rgba(#f00, .12);
+      }
+    }
   }
 
 }
@@ -216,6 +213,12 @@ $debug: false !default;
     .cage-medium-#{$colspan},
     .col-medium-#{$colspan}, {
       width: $colwidth * $colspan;
+
+      @if $debug {
+        .debug {
+          background: rgba(#08f, .16);
+        }
+      }
     }
   }
 
@@ -230,26 +233,18 @@ $debug: false !default;
     .cage-small-#{$colspan},
     .col-small-#{$colspan}, {
       width: $colwidth * $colspan;
+
+      @if $debug {
+        .debug {
+          background: rgba(#0f8, .16);
+        }
+      }
     }
 
   }
 
 }
 
-// Tiny cages and cols
-// These should be able to override the small classes
-@media screen and (#{$threshold-property}: $tiny-threshold) {
-
-  @for $colspan from 1 through 12 {
-
-    .cage-tiny-#{$colspan},
-    .col-tiny-#{$colspan}, {
-      width: $colwidth * $colspan;
-    }
-
-  }
-
-}
 
 // You probably won't want to add more breakpoints, this grid has you covered
 // with three of them, but if you must, add them here.

@@ -1,4 +1,4 @@
-.top-nav:after, .top-nav-menu:after, .container:after, .container-narrow:after, .cage-tiny-1:after, .cage-tiny-2:after, .cage-tiny-3:after, .cage-tiny-4:after, .cage-tiny-5:after, .cage-tiny-6:after, .cage-tiny-7:after, .cage-tiny-8:after, .cage-tiny-9:after, .cage-tiny-10:after, .cage-tiny-11:after, .cage-tiny-12:after, .cage-small-1:after, .cage-small-2:after, .cage-small-3:after, .cage-small-4:after, .cage-small-5:after, .cage-small-6:after, .cage-small-7:after, .cage-small-8:after, .cage-small-9:after, .cage-small-10:after, .cage-small-11:after, .cage-small-12:after, .cage-medium-1:after, .cage-medium-2:after, .cage-medium-3:after, .cage-medium-4:after, .cage-medium-5:after, .cage-medium-6:after, .cage-medium-7:after, .cage-medium-8:after, .cage-medium-9:after, .cage-medium-10:after, .cage-medium-11:after, .cage-medium-12:after, .cage-large-1:after, .cage-large-2:after, .cage-large-3:after, .cage-large-4:after, .cage-large-5:after, .cage-large-6:after, .cage-large-7:after, .cage-large-8:after, .cage-large-9:after, .cage-large-10:after, .cage-large-11:after, .cage-large-12:after, .col-tiny-1:after, .col-tiny-2:after, .col-tiny-3:after, .col-tiny-4:after, .col-tiny-5:after, .col-tiny-6:after, .col-tiny-7:after, .col-tiny-8:after, .col-tiny-9:after, .col-tiny-10:after, .col-tiny-11:after, .col-tiny-12:after, .col-small-1:after, .col-small-2:after, .col-small-3:after, .col-small-4:after, .col-small-5:after, .col-small-6:after, .col-small-7:after, .col-small-8:after, .col-small-9:after, .col-small-10:after, .col-small-11:after, .col-small-12:after, .col-medium-1:after, .col-medium-2:after, .col-medium-3:after, .col-medium-4:after, .col-medium-5:after, .col-medium-6:after, .col-medium-7:after, .col-medium-8:after, .col-medium-9:after, .col-medium-10:after, .col-medium-11:after, .col-medium-12:after, .col-large-1:after, .col-large-2:after, .col-large-3:after, .col-large-4:after, .col-large-5:after, .col-large-6:after, .col-large-7:after, .col-large-8:after, .col-large-9:after, .col-large-10:after, .col-large-11:after, .col-large-12:after {
+.top-nav:after, .top-nav-menu:after, .container:after, .container-narrow:after, .cage-small-1:after, .cage-small-2:after, .cage-small-3:after, .cage-small-4:after, .cage-small-5:after, .cage-small-6:after, .cage-small-7:after, .cage-small-8:after, .cage-small-9:after, .cage-small-10:after, .cage-small-11:after, .cage-small-12:after, .cage-medium-1:after, .cage-medium-2:after, .cage-medium-3:after, .cage-medium-4:after, .cage-medium-5:after, .cage-medium-6:after, .cage-medium-7:after, .cage-medium-8:after, .cage-medium-9:after, .cage-medium-10:after, .cage-medium-11:after, .cage-medium-12:after, .cage-large-1:after, .cage-large-2:after, .cage-large-3:after, .cage-large-4:after, .cage-large-5:after, .cage-large-6:after, .cage-large-7:after, .cage-large-8:after, .cage-large-9:after, .cage-large-10:after, .cage-large-11:after, .cage-large-12:after, .col-small-1:after, .col-small-2:after, .col-small-3:after, .col-small-4:after, .col-small-5:after, .col-small-6:after, .col-small-7:after, .col-small-8:after, .col-small-9:after, .col-small-10:after, .col-small-11:after, .col-small-12:after, .col-medium-1:after, .col-medium-2:after, .col-medium-3:after, .col-medium-4:after, .col-medium-5:after, .col-medium-6:after, .col-medium-7:after, .col-medium-8:after, .col-medium-9:after, .col-medium-10:after, .col-medium-11:after, .col-medium-12:after, .col-large-1:after, .col-large-2:after, .col-large-3:after, .col-large-4:after, .col-large-5:after, .col-large-6:after, .col-large-7:after, .col-large-8:after, .col-large-9:after, .col-large-10:after, .col-large-11:after, .col-large-12:after {
   display: block;
   height: 0;
   width: 100%;
@@ -11,6 +11,64 @@ a {
   color: #08f; }
   a:hover {
     color: #048; }
+
+footer {
+  color: #808080; }
+
+h1 {
+  font-size: 2.4rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.6rem; }
+
+h4 {
+  font-size: 1.2rem; }
+
+h6, h6 {
+  font-size: 1rem; }
+
+h6 {
+  font-style: italic; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.text-left {
+  text-align: left; }
+
+.font-size-16px {
+  font-size: 16px; }
+
+.font-size-24px {
+  font-size: 24px; }
+
+.font-size-32px {
+  font-size: 32px; }
+
+.font-size-40px {
+  font-size: 40px; }
+
+.font-size-48px {
+  font-size: 48px; }
+
+.font-size-56px {
+  font-size: 56px; }
+
+.font-size-64px {
+  font-size: 64px; }
+
+.font-size-72px {
+  font-size: 72px; }
+
+.shrinkwrap {
+  margin: 0;
+  padding: 0; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -30,6 +88,10 @@ body {
 
 .content {
   background: #fff; }
+
+[class*='col-'] .debug {
+  background: #fff;
+  padding: 1rem; }
 
 .top-nav {
   background: #fff;
@@ -52,7 +114,7 @@ body {
       background: #48f;
       color: #fff; }
 
-.top-nav:after, .top-nav-menu:after, .container:after, .container-narrow:after, .cage-tiny-1:after, .cage-tiny-2:after, .cage-tiny-3:after, .cage-tiny-4:after, .cage-tiny-5:after, .cage-tiny-6:after, .cage-tiny-7:after, .cage-tiny-8:after, .cage-tiny-9:after, .cage-tiny-10:after, .cage-tiny-11:after, .cage-tiny-12:after, .cage-small-1:after, .cage-small-2:after, .cage-small-3:after, .cage-small-4:after, .cage-small-5:after, .cage-small-6:after, .cage-small-7:after, .cage-small-8:after, .cage-small-9:after, .cage-small-10:after, .cage-small-11:after, .cage-small-12:after, .cage-medium-1:after, .cage-medium-2:after, .cage-medium-3:after, .cage-medium-4:after, .cage-medium-5:after, .cage-medium-6:after, .cage-medium-7:after, .cage-medium-8:after, .cage-medium-9:after, .cage-medium-10:after, .cage-medium-11:after, .cage-medium-12:after, .cage-large-1:after, .cage-large-2:after, .cage-large-3:after, .cage-large-4:after, .cage-large-5:after, .cage-large-6:after, .cage-large-7:after, .cage-large-8:after, .cage-large-9:after, .cage-large-10:after, .cage-large-11:after, .cage-large-12:after, .col-tiny-1:after, .col-tiny-2:after, .col-tiny-3:after, .col-tiny-4:after, .col-tiny-5:after, .col-tiny-6:after, .col-tiny-7:after, .col-tiny-8:after, .col-tiny-9:after, .col-tiny-10:after, .col-tiny-11:after, .col-tiny-12:after, .col-small-1:after, .col-small-2:after, .col-small-3:after, .col-small-4:after, .col-small-5:after, .col-small-6:after, .col-small-7:after, .col-small-8:after, .col-small-9:after, .col-small-10:after, .col-small-11:after, .col-small-12:after, .col-medium-1:after, .col-medium-2:after, .col-medium-3:after, .col-medium-4:after, .col-medium-5:after, .col-medium-6:after, .col-medium-7:after, .col-medium-8:after, .col-medium-9:after, .col-medium-10:after, .col-medium-11:after, .col-medium-12:after, .col-large-1:after, .col-large-2:after, .col-large-3:after, .col-large-4:after, .col-large-5:after, .col-large-6:after, .col-large-7:after, .col-large-8:after, .col-large-9:after, .col-large-10:after, .col-large-11:after, .col-large-12:after {
+.top-nav:after, .top-nav-menu:after, .container:after, .container-narrow:after, .cage-small-1:after, .cage-small-2:after, .cage-small-3:after, .cage-small-4:after, .cage-small-5:after, .cage-small-6:after, .cage-small-7:after, .cage-small-8:after, .cage-small-9:after, .cage-small-10:after, .cage-small-11:after, .cage-small-12:after, .cage-medium-1:after, .cage-medium-2:after, .cage-medium-3:after, .cage-medium-4:after, .cage-medium-5:after, .cage-medium-6:after, .cage-medium-7:after, .cage-medium-8:after, .cage-medium-9:after, .cage-medium-10:after, .cage-medium-11:after, .cage-medium-12:after, .cage-large-1:after, .cage-large-2:after, .cage-large-3:after, .cage-large-4:after, .cage-large-5:after, .cage-large-6:after, .cage-large-7:after, .cage-large-8:after, .cage-large-9:after, .cage-large-10:after, .cage-large-11:after, .cage-large-12:after, .col-small-1:after, .col-small-2:after, .col-small-3:after, .col-small-4:after, .col-small-5:after, .col-small-6:after, .col-small-7:after, .col-small-8:after, .col-small-9:after, .col-small-10:after, .col-small-11:after, .col-small-12:after, .col-medium-1:after, .col-medium-2:after, .col-medium-3:after, .col-medium-4:after, .col-medium-5:after, .col-medium-6:after, .col-medium-7:after, .col-medium-8:after, .col-medium-9:after, .col-medium-10:after, .col-medium-11:after, .col-medium-12:after, .col-large-1:after, .col-large-2:after, .col-large-3:after, .col-large-4:after, .col-large-5:after, .col-large-6:after, .col-large-7:after, .col-large-8:after, .col-large-9:after, .col-large-10:after, .col-large-11:after, .col-large-12:after {
   display: block;
   height: 0;
   width: 100%;
@@ -63,459 +125,483 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1024px;
+  max-width: 960px;
   margin: auto;
-  padding: 0 8px; }
+  padding: 0 0.5rem; }
 
 .container-narrow {
   width: 100%;
-  max-width: 720px;
+  max-width: 640px;
   margin: auto;
-  padding: 0 8px; }
+  padding: 0 0.5rem; }
 
-.cage-tiny-1, .cage-tiny-2, .cage-tiny-3, .cage-tiny-4, .cage-tiny-5, .cage-tiny-6, .cage-tiny-7, .cage-tiny-8, .cage-tiny-9, .cage-tiny-10, .cage-tiny-11, .cage-tiny-12, .cage-small-1, .cage-small-2, .cage-small-3, .cage-small-4, .cage-small-5, .cage-small-6, .cage-small-7, .cage-small-8, .cage-small-9, .cage-small-10, .cage-small-11, .cage-small-12, .cage-medium-1, .cage-medium-2, .cage-medium-3, .cage-medium-4, .cage-medium-5, .cage-medium-6, .cage-medium-7, .cage-medium-8, .cage-medium-9, .cage-medium-10, .cage-medium-11, .cage-medium-12, .cage-large-1, .cage-large-2, .cage-large-3, .cage-large-4, .cage-large-5, .cage-large-6, .cage-large-7, .cage-large-8, .cage-large-9, .cage-large-10, .cage-large-11, .cage-large-12 {
+.cage-small-1, .cage-small-2, .cage-small-3, .cage-small-4, .cage-small-5, .cage-small-6, .cage-small-7, .cage-small-8, .cage-small-9, .cage-small-10, .cage-small-11, .cage-small-12, .cage-medium-1, .cage-medium-2, .cage-medium-3, .cage-medium-4, .cage-medium-5, .cage-medium-6, .cage-medium-7, .cage-medium-8, .cage-medium-9, .cage-medium-10, .cage-medium-11, .cage-medium-12, .cage-large-1, .cage-large-2, .cage-large-3, .cage-large-4, .cage-large-5, .cage-large-6, .cage-large-7, .cage-large-8, .cage-large-9, .cage-large-10, .cage-large-11, .cage-large-12 {
   clear: none;
   float: left;
   position: relative; }
 
-.col-tiny-1, .col-tiny-2, .col-tiny-3, .col-tiny-4, .col-tiny-5, .col-tiny-6, .col-tiny-7, .col-tiny-8, .col-tiny-9, .col-tiny-10, .col-tiny-11, .col-tiny-12, .col-small-1, .col-small-2, .col-small-3, .col-small-4, .col-small-5, .col-small-6, .col-small-7, .col-small-8, .col-small-9, .col-small-10, .col-small-11, .col-small-12, .col-medium-1, .col-medium-2, .col-medium-3, .col-medium-4, .col-medium-5, .col-medium-6, .col-medium-7, .col-medium-8, .col-medium-9, .col-medium-10, .col-medium-11, .col-medium-12, .col-large-1, .col-large-2, .col-large-3, .col-large-4, .col-large-5, .col-large-6, .col-large-7, .col-large-8, .col-large-9, .col-large-10, .col-large-11, .col-large-12 {
+.col-small-1, .col-small-2, .col-small-3, .col-small-4, .col-small-5, .col-small-6, .col-small-7, .col-small-8, .col-small-9, .col-small-10, .col-small-11, .col-small-12, .col-medium-1, .col-medium-2, .col-medium-3, .col-medium-4, .col-medium-5, .col-medium-6, .col-medium-7, .col-medium-8, .col-medium-9, .col-medium-10, .col-medium-11, .col-medium-12, .col-large-1, .col-large-2, .col-large-3, .col-large-4, .col-large-5, .col-large-6, .col-large-7, .col-large-8, .col-large-9, .col-large-10, .col-large-11, .col-large-12 {
   clear: none;
   float: left;
-  padding: 8px;
+  padding: 0.5rem;
   position: relative; }
-
-.cage-tiny-1 {
-  width: 8.33333%; }
-
-.col-tiny-1 {
-  width: 8.33333%; }
-
-.cage-tiny-2 {
-  width: 16.66667%; }
-
-.col-tiny-2 {
-  width: 16.66667%; }
-
-.cage-tiny-3 {
-  width: 25%; }
-
-.col-tiny-3 {
-  width: 25%; }
-
-.cage-tiny-4 {
-  width: 33.33333%; }
-
-.col-tiny-4 {
-  width: 33.33333%; }
-
-.cage-tiny-5 {
-  width: 41.66667%; }
-
-.col-tiny-5 {
-  width: 41.66667%; }
-
-.cage-tiny-6 {
-  width: 50%; }
-
-.col-tiny-6 {
-  width: 50%; }
-
-.cage-tiny-7 {
-  width: 58.33333%; }
-
-.col-tiny-7 {
-  width: 58.33333%; }
-
-.cage-tiny-8 {
-  width: 66.66667%; }
-
-.col-tiny-8 {
-  width: 66.66667%; }
-
-.cage-tiny-9 {
-  width: 75%; }
-
-.col-tiny-9 {
-  width: 75%; }
-
-.cage-tiny-10 {
-  width: 83.33333%; }
-
-.col-tiny-10 {
-  width: 83.33333%; }
-
-.cage-tiny-11 {
-  width: 91.66667%; }
-
-.col-tiny-11 {
-  width: 91.66667%; }
-
-.cage-tiny-12 {
-  width: 100%; }
-
-.col-tiny-12 {
-  width: 100%; }
 
 .cage-small-1 {
   width: 8.33333%; }
 
 .col-small-1 {
   width: 8.33333%; }
+  .col-small-1 .debug {
+    background: rgba(0, 255, 136, 0.16); }
 
 .cage-small-2 {
   width: 16.66667%; }
 
 .col-small-2 {
   width: 16.66667%; }
+  .col-small-2 .debug {
+    background: rgba(0, 255, 136, 0.16); }
 
 .cage-small-3 {
   width: 25%; }
 
 .col-small-3 {
   width: 25%; }
+  .col-small-3 .debug {
+    background: rgba(0, 255, 136, 0.16); }
 
 .cage-small-4 {
   width: 33.33333%; }
 
 .col-small-4 {
   width: 33.33333%; }
+  .col-small-4 .debug {
+    background: rgba(0, 255, 136, 0.16); }
 
 .cage-small-5 {
   width: 41.66667%; }
 
 .col-small-5 {
   width: 41.66667%; }
+  .col-small-5 .debug {
+    background: rgba(0, 255, 136, 0.16); }
 
 .cage-small-6 {
   width: 50%; }
 
 .col-small-6 {
   width: 50%; }
+  .col-small-6 .debug {
+    background: rgba(0, 255, 136, 0.16); }
 
 .cage-small-7 {
   width: 58.33333%; }
 
 .col-small-7 {
   width: 58.33333%; }
+  .col-small-7 .debug {
+    background: rgba(0, 255, 136, 0.16); }
 
 .cage-small-8 {
   width: 66.66667%; }
 
 .col-small-8 {
   width: 66.66667%; }
+  .col-small-8 .debug {
+    background: rgba(0, 255, 136, 0.16); }
 
 .cage-small-9 {
   width: 75%; }
 
 .col-small-9 {
   width: 75%; }
+  .col-small-9 .debug {
+    background: rgba(0, 255, 136, 0.16); }
 
 .cage-small-10 {
   width: 83.33333%; }
 
 .col-small-10 {
   width: 83.33333%; }
+  .col-small-10 .debug {
+    background: rgba(0, 255, 136, 0.16); }
 
 .cage-small-11 {
   width: 91.66667%; }
 
 .col-small-11 {
   width: 91.66667%; }
+  .col-small-11 .debug {
+    background: rgba(0, 255, 136, 0.16); }
 
 .cage-small-12 {
   width: 100%; }
 
 .col-small-12 {
   width: 100%; }
+  .col-small-12 .debug {
+    background: rgba(0, 255, 136, 0.16); }
 
 .cage-medium-1 {
   width: 8.33333%; }
 
 .col-medium-1 {
   width: 8.33333%; }
+  .col-medium-1 .debug {
+    background: rgba(0, 136, 255, 0.16); }
 
 .cage-medium-2 {
   width: 16.66667%; }
 
 .col-medium-2 {
   width: 16.66667%; }
+  .col-medium-2 .debug {
+    background: rgba(0, 136, 255, 0.16); }
 
 .cage-medium-3 {
   width: 25%; }
 
 .col-medium-3 {
   width: 25%; }
+  .col-medium-3 .debug {
+    background: rgba(0, 136, 255, 0.16); }
 
 .cage-medium-4 {
   width: 33.33333%; }
 
 .col-medium-4 {
   width: 33.33333%; }
+  .col-medium-4 .debug {
+    background: rgba(0, 136, 255, 0.16); }
 
 .cage-medium-5 {
   width: 41.66667%; }
 
 .col-medium-5 {
   width: 41.66667%; }
+  .col-medium-5 .debug {
+    background: rgba(0, 136, 255, 0.16); }
 
 .cage-medium-6 {
   width: 50%; }
 
 .col-medium-6 {
   width: 50%; }
+  .col-medium-6 .debug {
+    background: rgba(0, 136, 255, 0.16); }
 
 .cage-medium-7 {
   width: 58.33333%; }
 
 .col-medium-7 {
   width: 58.33333%; }
+  .col-medium-7 .debug {
+    background: rgba(0, 136, 255, 0.16); }
 
 .cage-medium-8 {
   width: 66.66667%; }
 
 .col-medium-8 {
   width: 66.66667%; }
+  .col-medium-8 .debug {
+    background: rgba(0, 136, 255, 0.16); }
 
 .cage-medium-9 {
   width: 75%; }
 
 .col-medium-9 {
   width: 75%; }
+  .col-medium-9 .debug {
+    background: rgba(0, 136, 255, 0.16); }
 
 .cage-medium-10 {
   width: 83.33333%; }
 
 .col-medium-10 {
   width: 83.33333%; }
+  .col-medium-10 .debug {
+    background: rgba(0, 136, 255, 0.16); }
 
 .cage-medium-11 {
   width: 91.66667%; }
 
 .col-medium-11 {
   width: 91.66667%; }
+  .col-medium-11 .debug {
+    background: rgba(0, 136, 255, 0.16); }
 
 .cage-medium-12 {
   width: 100%; }
 
 .col-medium-12 {
   width: 100%; }
+  .col-medium-12 .debug {
+    background: rgba(0, 136, 255, 0.16); }
 
 .cage-large-1 {
   width: 8.33333%; }
 
 .col-large-1 {
   width: 8.33333%; }
+  .col-large-1 .debug {
+    background: rgba(255, 0, 0, 0.12); }
 
 .cage-large-2 {
   width: 16.66667%; }
 
 .col-large-2 {
   width: 16.66667%; }
+  .col-large-2 .debug {
+    background: rgba(255, 0, 0, 0.12); }
 
 .cage-large-3 {
   width: 25%; }
 
 .col-large-3 {
   width: 25%; }
+  .col-large-3 .debug {
+    background: rgba(255, 0, 0, 0.12); }
 
 .cage-large-4 {
   width: 33.33333%; }
 
 .col-large-4 {
   width: 33.33333%; }
+  .col-large-4 .debug {
+    background: rgba(255, 0, 0, 0.12); }
 
 .cage-large-5 {
   width: 41.66667%; }
 
 .col-large-5 {
   width: 41.66667%; }
+  .col-large-5 .debug {
+    background: rgba(255, 0, 0, 0.12); }
 
 .cage-large-6 {
   width: 50%; }
 
 .col-large-6 {
   width: 50%; }
+  .col-large-6 .debug {
+    background: rgba(255, 0, 0, 0.12); }
 
 .cage-large-7 {
   width: 58.33333%; }
 
 .col-large-7 {
   width: 58.33333%; }
+  .col-large-7 .debug {
+    background: rgba(255, 0, 0, 0.12); }
 
 .cage-large-8 {
   width: 66.66667%; }
 
 .col-large-8 {
   width: 66.66667%; }
+  .col-large-8 .debug {
+    background: rgba(255, 0, 0, 0.12); }
 
 .cage-large-9 {
   width: 75%; }
 
 .col-large-9 {
   width: 75%; }
+  .col-large-9 .debug {
+    background: rgba(255, 0, 0, 0.12); }
 
 .cage-large-10 {
   width: 83.33333%; }
 
 .col-large-10 {
   width: 83.33333%; }
+  .col-large-10 .debug {
+    background: rgba(255, 0, 0, 0.12); }
 
 .cage-large-11 {
   width: 91.66667%; }
 
 .col-large-11 {
   width: 91.66667%; }
+  .col-large-11 .debug {
+    background: rgba(255, 0, 0, 0.12); }
 
 .cage-large-12 {
   width: 100%; }
 
 .col-large-12 {
   width: 100%; }
+  .col-large-12 .debug {
+    background: rgba(255, 0, 0, 0.12); }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 720px) {
   .cage-medium-1,
   .col-medium-1 {
     width: 8.33333%; }
+    .cage-medium-1 .debug,
+    .col-medium-1 .debug {
+      background: rgba(0, 136, 255, 0.16); }
 
   .cage-medium-2,
   .col-medium-2 {
     width: 16.66667%; }
+    .cage-medium-2 .debug,
+    .col-medium-2 .debug {
+      background: rgba(0, 136, 255, 0.16); }
 
   .cage-medium-3,
   .col-medium-3 {
     width: 25%; }
+    .cage-medium-3 .debug,
+    .col-medium-3 .debug {
+      background: rgba(0, 136, 255, 0.16); }
 
   .cage-medium-4,
   .col-medium-4 {
     width: 33.33333%; }
+    .cage-medium-4 .debug,
+    .col-medium-4 .debug {
+      background: rgba(0, 136, 255, 0.16); }
 
   .cage-medium-5,
   .col-medium-5 {
     width: 41.66667%; }
+    .cage-medium-5 .debug,
+    .col-medium-5 .debug {
+      background: rgba(0, 136, 255, 0.16); }
 
   .cage-medium-6,
   .col-medium-6 {
     width: 50%; }
+    .cage-medium-6 .debug,
+    .col-medium-6 .debug {
+      background: rgba(0, 136, 255, 0.16); }
 
   .cage-medium-7,
   .col-medium-7 {
     width: 58.33333%; }
+    .cage-medium-7 .debug,
+    .col-medium-7 .debug {
+      background: rgba(0, 136, 255, 0.16); }
 
   .cage-medium-8,
   .col-medium-8 {
     width: 66.66667%; }
+    .cage-medium-8 .debug,
+    .col-medium-8 .debug {
+      background: rgba(0, 136, 255, 0.16); }
 
   .cage-medium-9,
   .col-medium-9 {
     width: 75%; }
+    .cage-medium-9 .debug,
+    .col-medium-9 .debug {
+      background: rgba(0, 136, 255, 0.16); }
 
   .cage-medium-10,
   .col-medium-10 {
     width: 83.33333%; }
+    .cage-medium-10 .debug,
+    .col-medium-10 .debug {
+      background: rgba(0, 136, 255, 0.16); }
 
   .cage-medium-11,
   .col-medium-11 {
     width: 91.66667%; }
+    .cage-medium-11 .debug,
+    .col-medium-11 .debug {
+      background: rgba(0, 136, 255, 0.16); }
 
   .cage-medium-12,
   .col-medium-12 {
-    width: 100%; } }
-@media screen and (max-width: 720px) {
+    width: 100%; }
+    .cage-medium-12 .debug,
+    .col-medium-12 .debug {
+      background: rgba(0, 136, 255, 0.16); } }
+@media screen and (max-width: 640px) {
   .cage-small-1,
   .col-small-1 {
     width: 8.33333%; }
+    .cage-small-1 .debug,
+    .col-small-1 .debug {
+      background: rgba(0, 255, 136, 0.16); }
 
   .cage-small-2,
   .col-small-2 {
     width: 16.66667%; }
+    .cage-small-2 .debug,
+    .col-small-2 .debug {
+      background: rgba(0, 255, 136, 0.16); }
 
   .cage-small-3,
   .col-small-3 {
     width: 25%; }
+    .cage-small-3 .debug,
+    .col-small-3 .debug {
+      background: rgba(0, 255, 136, 0.16); }
 
   .cage-small-4,
   .col-small-4 {
     width: 33.33333%; }
+    .cage-small-4 .debug,
+    .col-small-4 .debug {
+      background: rgba(0, 255, 136, 0.16); }
 
   .cage-small-5,
   .col-small-5 {
     width: 41.66667%; }
+    .cage-small-5 .debug,
+    .col-small-5 .debug {
+      background: rgba(0, 255, 136, 0.16); }
 
   .cage-small-6,
   .col-small-6 {
     width: 50%; }
+    .cage-small-6 .debug,
+    .col-small-6 .debug {
+      background: rgba(0, 255, 136, 0.16); }
 
   .cage-small-7,
   .col-small-7 {
     width: 58.33333%; }
+    .cage-small-7 .debug,
+    .col-small-7 .debug {
+      background: rgba(0, 255, 136, 0.16); }
 
   .cage-small-8,
   .col-small-8 {
     width: 66.66667%; }
+    .cage-small-8 .debug,
+    .col-small-8 .debug {
+      background: rgba(0, 255, 136, 0.16); }
 
   .cage-small-9,
   .col-small-9 {
     width: 75%; }
+    .cage-small-9 .debug,
+    .col-small-9 .debug {
+      background: rgba(0, 255, 136, 0.16); }
 
   .cage-small-10,
   .col-small-10 {
     width: 83.33333%; }
+    .cage-small-10 .debug,
+    .col-small-10 .debug {
+      background: rgba(0, 255, 136, 0.16); }
 
   .cage-small-11,
   .col-small-11 {
     width: 91.66667%; }
+    .cage-small-11 .debug,
+    .col-small-11 .debug {
+      background: rgba(0, 255, 136, 0.16); }
 
   .cage-small-12,
   .col-small-12 {
-    width: 100%; } }
-@media screen and (max-width: 480px) {
-  .cage-tiny-1,
-  .col-tiny-1 {
-    width: 8.33333%; }
-
-  .cage-tiny-2,
-  .col-tiny-2 {
-    width: 16.66667%; }
-
-  .cage-tiny-3,
-  .col-tiny-3 {
-    width: 25%; }
-
-  .cage-tiny-4,
-  .col-tiny-4 {
-    width: 33.33333%; }
-
-  .cage-tiny-5,
-  .col-tiny-5 {
-    width: 41.66667%; }
-
-  .cage-tiny-6,
-  .col-tiny-6 {
-    width: 50%; }
-
-  .cage-tiny-7,
-  .col-tiny-7 {
-    width: 58.33333%; }
-
-  .cage-tiny-8,
-  .col-tiny-8 {
-    width: 66.66667%; }
-
-  .cage-tiny-9,
-  .col-tiny-9 {
-    width: 75%; }
-
-  .cage-tiny-10,
-  .col-tiny-10 {
-    width: 83.33333%; }
-
-  .cage-tiny-11,
-  .col-tiny-11 {
-    width: 91.66667%; }
-
-  .cage-tiny-12,
-  .col-tiny-12 {
-    width: 100%; } }
+    width: 100%; }
+    .cage-small-12 .debug,
+    .col-small-12 .debug {
+      background: rgba(0, 255, 136, 0.16); } }
 [class*='col-'] img:not(.force-style-properties),
 [class*='cage-'] img:not(.force-style-properties) {
   max-width: 100% !important;
