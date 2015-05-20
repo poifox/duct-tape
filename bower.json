@@ -1,0 +1,18 @@
+{
+  "name": "duct-tape",
+  "version": "0.1.0",
+  "homepage": "https://github.com/poifox/duct-tape",
+  "authors": [
+    "Jonathan Acosta <jota.aco@gmail.com>"
+  ],
+  "main": "demo.html",
+  "description": "Very simple responsive scss grid",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
