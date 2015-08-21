@@ -2,44 +2,6 @@
 // A VERY SIMPLE BUT POWERFUL RESPONSIVE GRID.
 // ALL HAIL THE VERY SIMPLE BUT POWERFUL RESPONSIVE GRID!
 
-// If you're not using this already in your styles (you probably should)
-// then go ahead and uncomment this rule.
-// * {
-//   -webkit-box-sizing: border-box;
-//   -moz-box-sizing: border-box;
-//   -ms-box-sizing: border-box;
-//   -o-box-sizing: border-box;
-//   box-sizing: border-box;
-// }
-
-// Variables
-
-// How many columns will your grid have?
-$manycols: 12 !default;
-
-// Define which property trigger the responsive breakpoints
-// default: max-width; other options: min-width, device-max-width, etc.
-$threshold-property: max-width;
-
-// The four main breakpoint thresholds for your grid
-// You can set these in any CSS unit that makes sense for your use case
-$large-threshold: 960px !default; // this is as wide as your site will get
-$medium-threshold: 720px !default; // medium screens breakpoint
-$small-threshold: 640px !default; // small screens breakpoint
-
-// Defines the gutter between columns
-// it works with a padding
-$gutter: 1rem !default;
-
-// The base width percentage. DO NOT EDIT
-$colwidth: 100% / $manycols;
-
-
-// More options:
-$constrain-images: true !default;
-$debug: false !default;
-
-
 // Base clearfix
 // Makes sure the grid works as intended when
 // floating things inside the cages and columns.
@@ -115,6 +77,32 @@ $debug: false !default;
 // + The responsive @media queries are below the base classes just to
 //   make sure we don't mess up with their hierarchy for appearing earlier.
 // This ordering should be kept unchanged to avoid hierarchy issues.
+
+
+// Tiny cages and cols
+// Defined here so they can be overridden by later classes
+// when adding more thresholds:
+//    + put smaller ones before this
+//    + and bigger ones after this
+@for $colspan from 1 through $manycols {
+
+  .cage-tiny-#{$colspan} {
+    @extend %cage;
+    width: $colwidth * $colspan;
+  }
+
+  .col-tiny-#{$colspan} {
+    @extend %col;
+    width: $colwidth * $colspan;
+
+    @if $debug {
+      .debug {
+        background: rgba(#0f8, .16);
+      }
+    }
+  }
+
+}
 
 
 // Small cages and cols
@@ -232,6 +220,27 @@ $debug: false !default;
 
     .cage-small-#{$colspan},
     .col-small-#{$colspan}, {
+      width: $colwidth * $colspan;
+
+      @if $debug {
+        .debug {
+          background: rgba(#0f8, .16);
+        }
+      }
+    }
+
+  }
+
+}
+
+// Small cages and cols
+// These should be able to override the medium classes
+@media screen and (#{$threshold-property}: $tiny-threshold) {
+
+  @for $colspan from 1 through $manycols {
+
+    .cage-tiny-#{$colspan},
+    .col-tiny-#{$colspan}, {
       width: $colwidth * $colspan;
 
       @if $debug {

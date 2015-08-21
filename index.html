@@ -3,29 +3,46 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Duct Tape</title>
-	<link rel="stylesheet" href="css/duct-tape.css">
+	<link rel="stylesheet" href="build.css">
 </head>
-<body>
+<body class="has-top-nav has-top-nav-fixed">
 	<article>
-		<header class="container">
-			<div class="col-large-12">
-				<nav class="top-nav">
+		<header class="top-nav fixed">
+			<nav class="container top-nav-cage top-nav-collapse-small">
+				<section class="left">
 					<ul class="top-nav-menu">
-						<li>
-							<a href="#">Duct Tape</a>
+						<li class="top-nav-item top-nav-parent top-nav-brand">
+							<a href="#" class="top-nav-link">
+								<span class="item-icon">Duct Tape</span>
+								<span class="item-label">Duct Tape</span>
+							</a>
 						</li>
-						<li>
-							<a href="#intro">Intro</a>
-						</li>
-						<li>
-							<a href="#classes">Classes</a>
-						</li>
-						<li>
-							<a href="#examples">Examples</a>
+						<li class="top-nav-item top-nav-parent" data-dropdown="css">
+							<a href="https://github.com/poifox/duct-tape" class="top-nav-link" target="_blank">
+								GitHub
+							</a>
+							<ul class="top-nav-sub-menu">
+								<li class="top-nav-item">
+									<a target="_blank" href="https://github.com/poifox/duct-tape/wiki">GitHub Wiki</a>
+								</li>
+								<li class="top-nav-item">
+									<a target="_blank" href="https://github.com/poifox/duct-tape/issues">GitHub Issues</a>
+								</li>
+							</ul>
 						</li>
 					</ul>
-				</nav>
-			</div>
+				</section>
+				<section class="right">
+					<ul class="top-nav-menu">
+						<li class="top-nav-item top-nav-parent">
+							<a href="http://poifox.com" class="top-nav-link" target="_blank">
+								<span class="item-icon">pfx</span>
+								<span class="item-label">Poifox</span>
+							</a>
+						</li>
+					</ul>
+				</section>
+			</nav>
 		</header>
 		<section class="container">
 			<div class="col-large-12" id="intro">
@@ -39,6 +56,18 @@
 				<p>
 					You can use the duct tape grid as a base for your own grids and layout engine, it is customizable and can adapt to have as many columns as you like.
 				</p>
+			</div>
+
+			<div class="col-large-12" id="build">
+				<h1>Build with SASS</h1>
+				<p>
+					To build the the styles for this demo page run this in your command line:
+				</p>
+				<pre data-lang="sh"><code>$ # build continuously, nested, no-cache
+$ <span style="color:#8f8;">sass --watch -t nested -C _main.scss:build.css</span>
+$
+$ # build once, nested, no-cache
+$ <span style="color:#8f8;">sass --update -t nested -C _main.scss:build.css</span></code></pre>
 			</div>
 
 			<div class="col-large-12" id="classes">
@@ -295,6 +324,111 @@
 				</div>
 			</div>
 
+		</section>
+
+		<section id="forms" class="container">
+			<div class="col-large-12">
+				<h1>Forms</h1>
+				<p>
+					Forms in Duct Tape are pretty and simple.
+				</p>
+				<p>
+					A form should be wrapped in a cage so you can use columns to create margins around the input fields. On the other hand field sets should be inside a column so they display properly.
+				</p>
+			</div>
+			<div class="cage-large-6 cage-small-12">
+				<form action="" method="GET">
+					<div class="col-large-12">
+						<h3>Form with &lt;fieldset&gt;</h3>
+					</div>
+					<div class="col-large-12">
+						<fieldset>
+							<legend>Field set legend</legend>
+							<div class="col-large-12">
+								<label for="input-username">Username</label>
+								<input required type="text" placeholder="Username">
+							</div>
+							<div class="col-large-6">
+								<label for="input-email">Email</label>
+								<input required type="email" placeholder="example@example.com">
+							</div>
+							<div class="col-large-6">
+								<label for="input-password">Password</label>
+								<input required type="password" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;">
+							</div>
+							<div class="col-large-6">
+								<label for="input-password">Select</label>
+								<select name="" id="" required>
+									<option>Select an option</option>
+									<optgroup label="Option Gruop">
+										<option value="Option 1">Option 1</option>
+										<option value="Option 2">Option 2</option>
+										<option value="Option 3">Option 3</option>
+									</optgroup>
+								</select>
+							</div>
+							<div class="col-large-6">
+								<label for="input-number">Number</label>
+								<input required type="number" placeholder="0" step="0.1">
+							</div>
+							<div class="col-large-12">
+								<label for="input-textarea">Textarea</label>
+								<textarea required name="" id="" cols="30" rows="6" placeholder="Put your content here"></textarea>
+							</div>
+							<div class="col-large-6">
+								<button class="button button-green block" type="reset">Green</button>
+							</div>
+							<div class="col-large-6">
+								<button class="button button-blue block" type="reset">Blue</button>
+							</div>
+						</fieldset>
+					</div>
+				</form>
+			</div>
+			<div class="cage-large-6 cage-small-12">
+				<form action="" method="GET">
+					<div class="col-large-12">
+						<h3>Form without &lt;fieldset&gt;</h3>
+					</div>
+					<div class="col-large-12">
+						<label for="input-username">Username</label>
+						<input required type="text" placeholder="Username">
+					</div>
+					<div class="col-large-6">
+						<label for="input-email">Email</label>
+						<input required type="email" placeholder="example@example.com">
+					</div>
+					<div class="col-large-6">
+						<label for="input-password">Password</label>
+						<input required type="password" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;">
+					</div>
+					<div class="col-large-6">
+						<label for="input-password">Select</label>
+						<select name="" id="" required>
+							<option>Select an option</option>
+							<optgroup label="Option Gruop">
+								<option value="Option 1">Option 1</option>
+								<option value="Option 2">Option 2</option>
+								<option value="Option 3">Option 3</option>
+							</optgroup>
+						</select>
+					</div>
+					<div class="col-large-6">
+						<label for="input-number">Number</label>
+						<input required type="number" placeholder="0" step="0.1">
+					</div>
+					<div class="col-large-12">
+						<label for="input-textarea">Textarea</label>
+						<textarea required cols="30" rows="6" placeholder="Put your content here"></textarea>
+					</div>
+					<div class="col-large-6">
+						<button class="button button-red block" type="submit">Regular</button>
+					</div>
+					<div class="col-large-6">
+						<button class="button button-blue block" disabled="disabled" type="reset">Disabled</button>
+					</div>
+				</form>
+			</div>
 		</section>
 
 

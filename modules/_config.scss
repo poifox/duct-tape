@@ -1,0 +1,91 @@
+
+// When starting a new project you might wanna have a copy of these vars in your
+// scss source directory, copy the contents of this file, add to you build system
+// and configure the look and feel of your app from there.
+//
+// Normally your folder structure would look like this
+//
+// 		main.scss
+// 			./base/_config.scss // do your config in here
+// 			./bower_components/duct-tape/_main.scss
+//
+// You can build your main file and the
+// customizations you introduce will be applied.
+
+
+
+
+////////////
+// COLORS //
+////////////
+$color-red: #f04030;
+$color-blue: #3080f0;
+$color-green: #60c000;
+$text-in-accent: #fff;
+$top-nav-background: #f0f0f0;
+
+
+
+///////////////////////////
+// DUCT TAPE GLOBAL VARS //
+///////////////////////////
+
+// Global typography settings
+$global-font-family: sans-serif !default;
+$global-monospace-font: monospace !default;
+$global-font-size: 16px !default;
+$global-color: #303030 !default;
+
+// Transitions
+$global-transition-time: 250ms;
+
+// headings
+$headings-font-family: $global-font-size !default;
+$headings-font-weight: 800 !default;
+$h1-font-size: 2rem !default;
+$h2-font-size: 1.8rem !default;
+$h3-font-size: 1.6rem !default;
+$h4-font-size: 1.4rem !default;
+$h5-font-size: 1.2rem !default;
+$h6-font-size: 1rem !default;
+
+
+
+/////////////////////
+// TOP MENU CONFIG //
+/////////////////////
+$top-nav-height: 3rem;
+$top-nav-item-padding: .5rem;
+
+
+
+////////////////////////////////
+// DUCT TAPE GRID SYSTEM VARS //
+////////////////////////////////
+
+// How many columns will your grid have?
+$manycols: 12 !default;
+
+// Define which property trigger the responsive breakpoints
+// default: max-width; other options: min-width, device-max-width, etc.
+$threshold-property: max-width;
+
+// The four main breakpoint thresholds for your grid
+// You can set these in any CSS unit that makes sense for your use case
+$large-threshold: 960px !default; // this is as wide as your site will get
+$medium-threshold: 720px !default; // medium screens breakpoint
+$small-threshold: 640px !default; // small screens breakpoint
+$tiny-threshold: 480px !default; // small screens breakpoint
+
+// Defines the gutter between columns
+// it works with a padding
+$gutter: 1rem !default;
+
+// The base width percentage. DO NOT EDIT
+$colwidth: 100% / $manycols;
+
+
+// More options:
+$constrain-images: true !default;
+$debug: false !default;
+

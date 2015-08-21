@@ -1,0 +1,39 @@
+
+@mixin ButtonMixin(
+	$bg: $color-green,
+	$cl: #fff,
+	$rd: .25rem,
+	$pd: 0 1.2rem,
+	$shd: (0 -1px 0 1px rgba(#000, .20) inset),
+	$pshd: (0 1px 0 1px rgba(#000, .20) inset),
+	$lh: 2.4rem,
+	$fs: 1rem
+) {
+	// Reset stuff
+	border: 0;
+	display: inline-block;
+
+	// Parametric stuff
+	color: $cl;
+	background: $bg;
+	border-radius: $rd;
+	font-size: $fs;
+	box-shadow: $shd;
+	line-height: $lh;
+	padding: $pd;
+
+	&:not([disabled]),
+	&:not(.disabled) {
+		&:hover {
+			background: lighten($bg, 4%);
+		}
+	}
+
+	&:not([disabled]),
+	&:not(.disabled) {
+		&:active {
+			background: darken($bg, 4%);
+			box-shadow: $pshd;
+		}
+	}
+}

@@ -1,0 +1,57 @@
+
+form {
+	display: block;
+}
+
+fieldset {
+	display: block;
+	background: #f0f0f0;
+	border-radius: ($gutter / 2);
+	border: 0;
+	padding: 0;
+	padding: ($gutter / 2);
+}
+
+legend {
+	display: block;
+	padding: 0 1rem;
+	line-height: 2rem;
+	font-weight: 800;
+	background: #f0f0f0;
+	border-radius: ($gutter / 2);
+}
+
+textarea {
+	padding: .5rem;
+	resize: vertical;
+}
+
+select,
+textarea,
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='password'] {
+	display: block;
+	width: 100%;
+	margin: 0;
+	font-size: 1rem;
+	border-radius: .25rem;
+	border: 1px solid #808080;
+	font-family: $global-font-family;
+
+	&:focus {
+		box-shadow: 0 0 4px $color-green;
+	}
+}
+
+select,
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='password'] {
+	padding: 0 .5rem;
+	line-height: 2rem;
+	display: block;
+	height: 2rem;
+}

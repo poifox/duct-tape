@@ -1,0 +1,53 @@
+
+// If you're not using this already in your styles (you probably should)
+// then go ahead and uncomment this rule.
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+	font-family: $global-font-family;
+	font-size: $global-font-size;
+	color: $global-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: $headings-font-weight;
+	margin: 1rem 0;
+}
+
+h1 {font-size: $h1-font-size;}
+
+h2 {font-size: $h2-font-size;}
+
+h3 {font-size: $h3-font-size;}
+
+h4 {font-size: $h4-font-size;}
+
+h5 {font-size: $h5-font-size;}
+
+h6 {font-size: $h6-font-size;}
+
+pre {
+	background: #383028;
+	padding: .5rem;
+	color: #c0c0c0;
+	border-radius: .25rem;
+}
+
+pre,
+kbd,
+code,
+samp,
+output {
+	font-family: $global-monospace-font;
+}

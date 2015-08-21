@@ -1,0 +1,160 @@
+
+.has-top-nav {
+	&.has-top-nav-fixed {
+		padding-top: $top-nav-height;
+	}
+}
+
+.top-nav {
+	background: $top-nav-background;
+	z-index: 1000000;
+	padding: 0 ($gutter / 2);
+	border-bottom: 1px solid #e0e0e0;
+
+	a {
+		text-decoration: none;
+		color: $color-green;
+		padding: 0 1rem;
+	}
+
+	&.fixed {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+	.container {
+		padding: 0 $gutter;
+	}
+}
+
+.top-nav-cage {
+	&.top-nav-collapse-medium {
+		@media screen and (max-width: $medium-threshold) {
+			.item-label {
+				display: none;
+			}
+			.item-icon {
+				display: block;
+			}
+		}
+	}
+	&.top-nav-collapse-small {
+		@media screen and (max-width: $small-threshold) {
+			.item-label {
+				display: none;
+			}
+			.item-icon {
+				display: block;
+			}
+		}
+	}
+	&.top-nav-collapse-tiny {
+		@media screen and (max-width: $tiny-threshold) {
+			.item-label {
+				display: none;
+			}
+			.item-icon {
+				display: block;
+			}
+		}
+	}
+	.left { // make sure this is a section in your HTML
+		float: left;
+	}
+	.right { // make sure this is a section in your HTML
+		float: right;
+	}
+}
+
+.top-nav-menu {
+	list-style-type: none;
+	display: block;
+	padding: 0;
+	margin: 0;
+
+	.left & { // make sure this is a section in your HTML
+		text-align: left;
+	}
+	.right & { // make sure this is a section in your HTML
+		text-align: right;
+	}
+}
+
+.top-nav-item {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	position: relative;
+	-webkit-transition: all $global-transition-time;
+	-moz-transition: all $global-transition-time;
+	-ms-transition: all $global-transition-time;
+	-o-transition: all $global-transition-time;
+	transition: all $global-transition-time;
+
+	&:hover {
+		background: darken($top-nav-background, 4%);
+	}
+
+	&.top-nav-parent {}
+}
+
+.top-nav-sub-menu {
+	// display: none;
+	position: absolute;
+	top: 100%;
+	background: darken($top-nav-background, 4%);
+	text-align: left;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: none;
+
+	[data-dropdown="css"]:hover & {
+		display: block;
+	}
+
+	-webkit-transition: all $global-transition-time;
+	-moz-transition: all $global-transition-time;
+	-ms-transition: all $global-transition-time;
+	-o-transition: all $global-transition-time;
+	transition: all $global-transition-time;
+
+	.left & {
+		left: 0;
+	}
+
+	.right & {
+		right: 0;
+	}
+
+	.top-nav-item {
+		display: block;
+	}
+
+	a {
+		display: block;
+		line-height: 2rem;
+		white-space: nowrap;
+	}
+}
+
+.top-nav-brand {
+	text-transform: uppercase;
+	font-weight: 800;
+
+	a {
+		background: $color-green;
+		color: $text-in-accent;
+	}
+}
+
+.top-nav-link {
+	display: block;
+	line-height: $top-nav-height;
+	padding: 0 $top-nav-item-padding;
+}
+
+.item-icon {
+	display: none;
+}
