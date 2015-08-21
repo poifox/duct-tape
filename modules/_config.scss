@@ -18,11 +18,11 @@
 ////////////
 // COLORS //
 ////////////
-$color-red: #f04030;
-$color-blue: #3080f0;
-$color-green: #60c000;
-$text-in-accent: #fff;
-$top-nav-background: #f0f0f0;
+$color-red: #f04030 !default;
+$color-blue: #3080f0 !default;
+$color-green: #60c000 !default;
+$text-in-accent: #fff !default;
+$top-nav-background: #f0f0f0 !default;
 
 
 
@@ -37,7 +37,7 @@ $global-font-size: 16px !default;
 $global-color: #303030 !default;
 
 // Transitions
-$global-transition-time: 250ms;
+$global-transition-time: 250ms !default;
 
 // headings
 $headings-font-family: $global-font-size !default;
@@ -55,7 +55,7 @@ $h6-font-size: 1rem !default;
 // TOP MENU CONFIG //
 /////////////////////
 $top-nav-height: 3rem;
-$top-nav-item-padding: .5rem;
+$top-nav-item-padding: .5rem !default;
 
 
 
@@ -68,7 +68,7 @@ $manycols: 12 !default;
 
 // Define which property trigger the responsive breakpoints
 // default: max-width; other options: min-width, device-max-width, etc.
-$threshold-property: max-width;
+$threshold-property: max-width !default;
 
 // The four main breakpoint thresholds for your grid
 // You can set these in any CSS unit that makes sense for your use case
@@ -82,7 +82,7 @@ $tiny-threshold: 480px !default; // small screens breakpoint
 $gutter: 1rem !default;
 
 // The base width percentage. DO NOT EDIT
-$colwidth: 100% / $manycols;
+$colwidth: (100% / $manycols) !default;
 
 
 // More options:
