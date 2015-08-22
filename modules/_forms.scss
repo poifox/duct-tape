@@ -39,6 +39,7 @@ input[type='password'] {
 	border-radius: .25rem;
 	border: 1px solid #808080;
 	font-family: $global-font-family;
+	background: $inputs-background;
 
 	&:focus {
 		box-shadow: 0 0 4px $color-green;

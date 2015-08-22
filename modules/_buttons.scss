@@ -1,5 +1,6 @@
 
 button,
+input[type="submit"],
 .button {
 	@include ButtonMixin(
 		$bg: $accent,
@@ -51,4 +52,10 @@ button,
 		$lh: 2.4rem,
 		$fs: 1rem
 		);
+}
+
+input[type="image"] {
+	border: 0;
+	padding: 0;
+	background: transparent;
 }
