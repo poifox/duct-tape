@@ -15,6 +15,18 @@ html {
 	color: $global-color;
 }
 
+a {
+	color: $color-green;
+}
+
+a:hover {
+	color: lighten($color-green, 4%);
+}
+
+a:active {
+	color: darken($color-green, 4%);
+}
+
 h1,
 h2,
 h3,
