@@ -42,7 +42,7 @@ input[type='password'] {
 	background: $inputs-background;
 
 	&:focus {
-		box-shadow: 0 0 4px $color-green;
+		box-shadow: 0 0 4px $accent;
 	}
 }
 
