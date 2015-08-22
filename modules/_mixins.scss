@@ -11,10 +11,10 @@
 ) {
 	// Reset stuff
 	border: 0;
+	color: #fff;
 	display: inline-block;
 
 	// Parametric stuff
-	color: $cl;
 	background: $bg;
 	border-radius: $rd;
 	font-size: $fs;
@@ -26,6 +26,7 @@
 	&:not(.disabled) {
 		&:hover {
 			background: lighten($bg, 4%);
+			color: #fff;
 		}
 	}
 
@@ -34,6 +35,7 @@
 		&:active {
 			background: darken($bg, 4%);
 			box-shadow: $pshd;
+			color: #fff;
 		}
 	}
 }
