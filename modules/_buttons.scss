@@ -2,7 +2,7 @@
 button,
 .button {
 	@include ButtonMixin(
-		$bg: $color-green,
+		$bg: $accent,
 		$cl: #fff,
 		$rd: .25rem,
 		$pd: 0 1.2rem,

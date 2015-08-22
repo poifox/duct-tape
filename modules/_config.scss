@@ -18,11 +18,13 @@
 ////////////
 // COLORS //
 ////////////
+$global-color: #303030 !default;
 $color-red: #f04030 !default;
 $color-blue: #3080f0 !default;
 $color-green: #60c000 !default;
 $text-in-accent: #fff !default;
 $top-nav-background: #f0f0f0 !default;
+$accent: $color-green !default;
 
 
 
@@ -34,7 +36,6 @@ $top-nav-background: #f0f0f0 !default;
 $global-font-family: sans-serif !default;
 $global-monospace-font: monospace !default;
 $global-font-size: 16px !default;
-$global-color: #303030 !default;
 
 // Transitions
 $global-transition-time: 250ms !default;

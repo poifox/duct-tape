@@ -16,15 +16,15 @@ html {
 }
 
 a {
-	color: $color-green;
+	color: $accent;
 }
 
 a:hover {
-	color: lighten($color-green, 4%);
+	color: lighten($accent, 6%);
 }
 
 a:active {
-	color: darken($color-green, 4%);
+	color: darken($accent, 6%);
 }
 
 h1,
