@@ -8,7 +8,6 @@
 .top-nav {
 	background: $top-nav-background;
 	z-index: 1000000;
-	padding: 0 ($gutter / 2);
 	border-bottom: 1px solid darken($top-nav-background, 4%);
 
 	a {
@@ -102,19 +101,19 @@
 		background: darken($top-nav-background, 4%);
 	}
 
-	&.top-nav-parent {}
+	&.top-nav-parent {
+	}
 }
 
 .top-nav-sub-menu {
-	// display: none;
-	position: absolute;
-	top: 100%;
 	background: darken($top-nav-background, 4%);
-	text-align: left;
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
 	display: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	text-align: left;
+	top: 100%;
 
 	[data-dropdown="css"]:hover & {
 		display: block;
@@ -140,8 +139,8 @@
 }
 
 .top-nav-brand {
+	font-weight: 400;
 	text-transform: uppercase;
-	font-weight: 800;
 
 	a {
 		background: $accent;
@@ -159,6 +158,9 @@
 
 .top-nav-link {
 	display: block;
+	font-family: $top-nav-font;
+	font-weight: 300;
+	text-transform: uppercase;
 	line-height: $top-nav-height;
 	padding: 0 $top-nav-item-padding;
 }
